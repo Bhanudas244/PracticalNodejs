@@ -13,7 +13,7 @@ exports.index = async (req, res) => {
         .skip(skipAmount)
         .limit(limit);
   
-      return res.status(200).send({ status: true, message: "Book Founds !!" });
+      return res.status(200).send({ status: true, message: "Book Founds !!",book});
     } catch (error) {
       console.log(error);
       return res
@@ -36,7 +36,7 @@ exports.store = async (req, res) => {
       book.author = req.body.author;
       book.summary = req.body.summary;
       await book.save()
-      return res.status(200).json({status:true,message:"Book Created !!"})
+      return res.status(200).json({status:true,message:"Book Created !!",book})
     } catch (error) {
       console.log(error);
       return res
