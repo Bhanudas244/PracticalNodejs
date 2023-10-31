@@ -17,3 +17,11 @@ Before running the application, make sure you have MongoDB installed and running
 
    ```bash
    git clone https://github.com/Bhanudas244/PracticalNodejs.git
+
+
+## You can directly access api  which i deploy on vercel server 
+
+ https://practical-nodejs.vercel.app/
+
+ eg. 
+  https://practical-nodejs.vercel.app/book
