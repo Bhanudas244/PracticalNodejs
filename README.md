@@ -19,8 +19,24 @@ Before running the application, make sure you have MongoDB installed and running
    git clone https://github.com/Bhanudas244/PracticalNodejs.git
 
 
-## You can directly access api  which i deploy on vercel server 
 
+## Deployment on Vercel
+
+To deploy the Book Management System on Vercel, follow these steps:
+
+1. **Create a Vercel Account:**
+
+   If you don't already have a Vercel account, sign up for one at [https://vercel.com](https://vercel.com).
+
+2. **Install Vercel CLI:**
+
+   Install the Vercel CLI on your local machine if you haven't already. You can install it using npm:
+
+   ```bash
+   npm install -g vercel
+
+
+ You can use below link to access api which deploy on vercel server
  https://practical-nodejs.vercel.app/
 
  eg. 
